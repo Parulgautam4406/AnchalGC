@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  height: 60px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 200px;
+  height: 100%;
+  background-color: #eee;
+}
+
+.main {
+  flex: 1;
+  height: 100%;
+  background-color: #fff;
+}
+
+.footer {
+  height: 60px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
